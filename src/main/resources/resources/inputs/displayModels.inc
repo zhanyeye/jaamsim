@@ -6,6 +6,7 @@ Define ObjectType {
                     TextModel
                     GraphModel
                     IconModel
+                    SiloModel
                   }
 
 GraphModel      JavaClass { com.jaamsim.DisplayModels.GraphModel               } Palette { 'Display Models' }    DragAndDrop { FALSE }
@@ -15,6 +16,7 @@ ImageModel      JavaClass { com.jaamsim.DisplayModels.ImageModel               }
 ColladaModel    JavaClass { com.jaamsim.DisplayModels.ColladaModel             } Palette { 'Display Models' }    DragAndDrop { FALSE }
 ShapeModel      JavaClass { com.jaamsim.DisplayModels.ShapeModel               } Palette { 'Display Models' }    DragAndDrop { FALSE }
 IconModel       JavaClass { com.jaamsim.DisplayModels.IconModel                } Palette { 'Display Models' }    DragAndDrop { FALSE }
+SiloModel       JavaClass { com.jaamsim.DisplayModels.SiloModel                } Palette { 'Display Models' }    DragAndDrop { FALSE }
 
 Define ShapeModel {
                     Rectangle
@@ -66,3 +68,5 @@ ArrowModelDefault ShowArrowHead { TRUE }
 
 Define  IconModel  { VideoRecorderIconModel }
 VideoRecorderIconModel ImageFile { '<res>/images/VideoRecorder-256.png' }
+
+Define SiloModel           { SiloModelDefault           }
